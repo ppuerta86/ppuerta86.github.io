@@ -23,15 +23,13 @@ body {
     display: inline-block;
 }
 
-#header {
-    display: block;
-}
 
 header {
-/*    display: none;*/
+    display: block; 
     background-color: none;
     width: 100%;
     position: fixed;
+    z-index: 99;
     top: 0;
 }
 ul {
@@ -49,7 +47,10 @@ header ul li {
 }
 header ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
+     text-shadow: 0px 1px 2px #000;
+    -webkit-text-shadow: 0px 1px 2px #000;
+    -moz-text-shadow: 0px 1px 2px #000;
 }
 
 
@@ -78,7 +79,8 @@ header ul li a {
 
 /*seccion home*/
 .fondo-home {
-    
+    z-index: 100;
+    position: relative;
    background-image: url(../img/tecnologia.jpg);
       background-color: rgba(0,0,0,0.9); 
 }
