@@ -1,0 +1,148 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+/*imagenes*/
+.imagen img {
+	max-width: 100%;
+	height: auto;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/*menu*/
+
+.logo {
+    width: 130px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#header {
+    display: block;
+}
+
+header {
+/*    display: none;*/
+    background-color: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+ul {
+    float: right;
+    width: 450px;;
+    margin-top: 15px;
+}
+
+header ul li {
+    display: inline;
+    list-style: none; 
+    margin-left: 20px;
+    
+  
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*sistema de columnas*/
+
+.row {
+  max-width: 960px;
+  margin: 0 auto; 
+}
+
+/*Secciones*/
+
+.efecto-fondo-secciones {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+}
+
+/*seccion home*/
+.fondo-home {
+    
+   background-image: url(../img/tecnologia.jpg);
+      background-color: rgba(0,0,0,0.9); 
+}
+
+h1.home-nombre {
+  font-size: 4em;
+    
+ font-weight: 500;
+    text-transform: none;
+    color: #fff;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000; 
+     margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h3.home-profesion {
+  font-size: 1.5em;
+    text-transform: none;
+    color: #fff;
+ font-weight: 500;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+.foto-home {
+    text-align: center;
+ 
+}
+.imagen-redonda {
+       -webkit-border-radius: 60px 60px 60px 60px;
+    border-radius: 68px 68px 68px 68px;
+}
+
+.caja-home {
+    margin-top: 30vh;
+    
+}
+.hr-largo {
+    width: 300px;
+    
+}
+.icono-home {
+    text-align: center;
+     text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    font-size: 4em;
+    cursor: pointer;
+}
+.icono-home a {
+ color: white;
+    
+}
+
+/*Seccion Acerca*/
+
+.fondo-acerca {
+    
+   background-image: url(../img/break.jpg);
+      background-color: rgba(0,0,0,0.9); 
+}
