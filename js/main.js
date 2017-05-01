@@ -1,9 +1,36 @@
 $(document).ready(function(){
     
     
+    $("#showMenu").click(function(){
+		$("#MovilMenu").addClass("Menu");
+	});
+     $("#CloseMenu").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+       $("#CloseHome").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    $("#CloseAcerca").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    $("#CloseExperiencia").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    $("#CloseCurso").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    $("#ClosePortafolio").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    $("#CloseContacto").click(function(){
+		$("#MovilMenu").removeClass("Menu");
+	});
+    
          
     
 });
+
+
 
 smoothScroll.init({
     selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
