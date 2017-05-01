@@ -26,12 +26,12 @@ $asunto = $_REQUEST['asunto'];
 	$sheader=$sheader."Mime-Version: 1.0\n"; 
 	$sheader=$sheader."Content-Type: text/html"; 
 				
-	$sdestinatario="ppuerta86@hotmail.com"; //cuenta destino 
+	$sdestinatario="ppuerta@creativewebaragua.com.ve"; //cuenta destino 
 	mail($sdestinatario,$ssubject,$shtml,$sheader); 
     
 
 
-echo 'Gracias por enviarnos la Informacion Sr(a) <strong>'.$varNombre.',</strong> Lo contactaremos en la brevedad Posible';
+echo 'Gracias por Escribirme Sr(a) <strong>'.$varNombre.',</strong> Lo contactaremos lo mas pronto posible';
 
  
   ?>

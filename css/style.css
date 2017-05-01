@@ -195,7 +195,7 @@ h3.home-profesion {
 }
 
 .caja-home {
-    margin-top: 30vh;
+    margin-top: 25vh;
     
 }
 .hr-largo {
@@ -483,7 +483,7 @@ font-size: 1.4em;
 .margin-formulario  {
    margin-top: 120px; 
 }
-#comprobar {
+#comprobar,#comprobar-nombre,#comprobar-email,#comprobar-mensaje {
     color: white;
     font-size: 1.4em;
 }
