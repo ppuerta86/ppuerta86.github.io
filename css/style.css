@@ -21,7 +21,9 @@ body {
     color: #ff9c2b;
 }
 /*menu*/
-
+.hamburguesa {
+    display: none;
+}
 .logo {
     width: 130px;
     padding: 5px;
@@ -346,3 +348,201 @@ font-size: 1.4em;
     color: #000;
     text-align: center;
 }
+
+
+/*seccion frases*/
+
+.fondo-frases3 {
+    background-image: url(../img/seo.jpg);
+    padding-top: 80px;
+}
+.fondo-frases3 p {
+  font-size: 3.5em;
+    text-transform: none;
+    color: #fff;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    margin-top: 0px;
+    text-align: center;  
+}
+.fondo-frases3 p span {
+ font-weight: bold;
+}
+
+
+/*seccion portafolio
+
+*/
+
+.fondo-portafolio {
+/*   background-image: url(../img/break.jpg);*/
+    background-color: white;
+}
+.margin-top-portafolio {
+   margin-top: 80px; 
+}
+
+
+.margin-top-portafolio h2 {
+font-size: 2.5em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #000;
+    text-align: center;
+}
+
+.margin-top-portafolio p{
+font-size: 1.4em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #000;
+    text-align: center;
+}
+
+.margin-top-portafolio h3 {
+font-size: 1.9em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #ff9c2b;
+    text-align: center;
+}
+.margin-top-portafolio h4{
+font-size: 1.4em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #000;
+    text-align: center;
+}
+
+
+/*seccion contacto
+
+*/
+
+.fondo-contacto {
+/*   background-image: url(../img/break.jpg);*/
+  background-color: #252e30;
+
+}
+.margin-top-contacto  {
+   margin-top: 80px; 
+}
+.margin-formulario  {
+   margin-top: 120px; 
+}
+
+
+.margin-top-contacto  h2 {
+font-size: 2.5em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #fff;
+    text-align: center;
+}
+
+.margin-top-contacto  p{
+font-size: 1.4em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #919191;
+    text-align: left;
+}
+.margin-top-contacto  p span{
+color: white;
+}
+
+.margin-top-contacto  h3 {
+font-size: 1.9em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #fff;
+    text-align: center;
+}
+.margin-top-contacto  h4 {
+font-size: 1.4em;  
+ font-weight: lighter;
+    text-transform: none;
+    color: #fff;
+    text-align: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.margin-top-contacto  p  a{
+font-size: 1.4em;  
+text-decoration: none;
+    text-transform: none;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+
+@media only screen and (max-width: 991px) {
+/*    acerca foto*/
+        
+.acerca-foto {
+    width: 260px;
+    margin-top: 25px;
+    border: 5px solid #ff9c2b;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+/*    seccion formulario*/
+    .margin-formulario {
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 640px) {
+    header ul {
+        display: none;
+    }
+    .hamburguesa{
+    display: inline;
+    right: 10px;
+    font-size: 2.6em;
+    color: #ff9c2b;
+    position: absolute;
+    }
+   
+}
+
+@media only screen and (max-width: 440px) {
+/*    seccion home*/
+    h1.home-nombre {
+  font-size: 3em;
+    
+}
+    /*seccion frases*/
+    
+    .fondo-frases,.fondo-frases2.fondo-frases3 {
+    padding-top: 60px;
+}
+.fondo-frases p,.fondo-frases2 p,.fondo-frases3 p {
+  font-size: 2.8em;
+  
+}
+
+}
+
+
