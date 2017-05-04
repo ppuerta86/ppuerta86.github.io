@@ -273,7 +273,7 @@ font-weight: bold;
     background-image: url(../img/tecnologia.jpg);
     padding-top: 80px;
 }
-.fondo-frases p {
+.fondo-frases h2 {
   font-size: 3.5em;
     text-transform: none;
     color: #fff;
@@ -283,8 +283,16 @@ font-weight: bold;
     margin-top: 0px;
     text-align: center;  
 }
-.fondo-frases p span {
+.fondo-frases h6 {
  font-weight: bold;
+   font-size: 3.5em;
+    text-transform: none;
+    color: #fff;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    margin-top: 0px;
+    text-align: center; 
 }
 
 /*seccion experiencia*/
@@ -334,7 +342,7 @@ font-size: 1.4em;
     background-image: url(../img/notebook2.jpg);
     padding-top: 80px;
 }
-.fondo-frases2 p {
+.fondo-frases2 h2 {
   font-size: 3.5em;
     text-transform: none;
     color: #fff;
@@ -344,8 +352,16 @@ font-size: 1.4em;
     margin-top: 0px;
     text-align: center;  
 }
-.fondo-frases2 p span {
+.fondo-frases2 h6 {
  font-weight: bold;
+   font-size: 3.5em;
+    text-transform: none;
+    color: #fff;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    margin-top: 0px;
+    text-align: center; 
 }
 
 
@@ -404,7 +420,7 @@ font-size: 1.4em;
     background-image: url(../img/seo.jpg);
     padding-top: 80px;
 }
-.fondo-frases3 p {
+.fondo-frases3 h2 {
   font-size: 3.5em;
     text-transform: none;
     color: #fff;
@@ -414,8 +430,16 @@ font-size: 1.4em;
     margin-top: 0px;
     text-align: center;  
 }
-.fondo-frases3 p span {
+.fondo-frases3 h6 {
  font-weight: bold;
+   font-size: 3.5em;
+    text-transform: none;
+    color: #fff;
+    text-shadow: 0px 7px 8px #000;
+    -webkit-text-shadow: 0px 7px 8px #000;
+    -moz-text-shadow: 0px 7px 8px #000;
+    margin-top: 0px;
+    text-align: center; 
 }
 
 

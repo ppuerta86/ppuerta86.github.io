@@ -10,31 +10,31 @@ function inicio(){
 }
 function envio(){
     
-//$("#comprobar-nombre").text("");
-//$("#comprobar-email").text("");
-//$("#comprobar-mensaje").text("");
-//    
-//   var nombre = $("#nombre").val();
-//    var email = $("#email").val();
-//        var mensaje = $("#mensaje").val();
-//    if (nombre == "") {
-//                   $("#comprobar-nombre").text("Completar el Campo Nombre");
-//                    return false;
-//                }
-//      if (email == "") {
-//                   $("#comprobar-email").text("Completar el Campo Email");
-//                    return false;
-//                }
-//        if (email.indexOf('@', 0) == -1 || email.indexOf('.', 0) == -1) {
-//        $("#comprobar-email").text("El Campo Email no es Correcto");
-//            return false;
-//        }
-//    
-//
-//      if (mensaje == "") {
-//                   $("#comprobar-mensaje").text("Completar el Campo Mensaje");
-//                    return false;
-//                }
+$("#comprobar-nombre").text("");
+$("#comprobar-email").text("");
+$("#comprobar-mensaje").text("");
+    
+   var nombre = $("#nombre").val();
+    var email = $("#email").val();
+        var mensaje = $("#mensaje").val();
+    if (nombre === "") {
+                   $("#comprobar-nombre").text("Completar el Campo Nombre");
+                    return false;
+                }
+      if (email === "") {
+                   $("#comprobar-email").text("Completar el Campo Email");
+                    return false;
+                }
+        if (email.indexOf('@', 0) == -1 || email.indexOf('.', 0) == -1) {
+        $("#comprobar-email").text("El Campo Email no es Correcto");
+            return false;
+        }
+    
+
+      if (mensaje === "") {
+                   $("#comprobar-mensaje").text("Completar el Campo Mensaje");
+                    return false;
+                }
     
     
 	var datos = $("#form1").serialize();

@@ -12,12 +12,12 @@ $asunto = $_REQUEST['asunto'];
 				
 	$ssubject="Web Personal - ". $asunto; //asunto 
 	// mensaje
-		$shtml ="<div id='header'><img src='http://www.creativewebaragua.com.ve/pedropuerta/img/logo.png'></div>";
+		$shtml ="<div id='header'><img src='http://www.pedropuerta.com/img/logo.png'></div>";
 	$shtml .= "Nombre: <strong>". $nombre ."</strong><br>";
     $shtml .= "Correo:<strong>" . $email . "</strong><br>";
 	$shtml .= "Mensaje:<strong>" . $asunto . "</strong><br><br>";
-	$shtml .= "Este Mensaje ha sido enviado automaticamente desde Un Sitio de Prueba luego de haber completado el formulario de cotizacion o informacion<br><br>";
-	$shtml .= "<strong>Si desconoce el origen de este email notifiquelo inmediatamente a: contacto@misitio.com</strong><br>";
+	$shtml .= "Este Mensaje ha sido enviado automaticamente desde pedropuerta.com luego de haber completado el formulario de cotizacion o informacion<br><br>";
+	$shtml .= "<strong>Si desconoce el origen de este email notifiquelo inmediatamente a: ppuerta@pedropuerta.com</strong><br>";
 	//echo $shtml;
 				
 				
@@ -26,7 +26,7 @@ $asunto = $_REQUEST['asunto'];
 	$sheader=$sheader."Mime-Version: 1.0\n"; 
 	$sheader=$sheader."Content-Type: text/html"; 
 				
-	$sdestinatario="ppuerta@creativewebaragua.com.ve"; //cuenta destino 
+	$sdestinatario="ppuerta@pedropuerta.com"; //cuenta destino 
 	mail($sdestinatario,$ssubject,$shtml,$sheader); 
     
 
