@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    
+
+
     
     $("#showMenu").click(function(){
 		$("#MovilMenu").addClass("Menu");
@@ -7,7 +8,7 @@ $(document).ready(function(){
      $("#CloseMenu").click(function(){
 		$("#MovilMenu").removeClass("Menu");
 	});
-       $("#CloseHome").click(function(){
+    $("#CloseHome").click(function(){
 		$("#MovilMenu").removeClass("Menu");
 	});
     $("#CloseAcerca").click(function(){
@@ -26,8 +27,12 @@ $(document).ready(function(){
 		$("#MovilMenu").removeClass("Menu");
 	});
     
+    
  
 });
+
+      
+
 
 
 

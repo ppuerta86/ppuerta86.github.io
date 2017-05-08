@@ -36,16 +36,22 @@ header {
     background-color: white;
     width: 100%;
     position: fixed;
-    z-index: 99;
+    z-index: 101;
     top: 0;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-color: #ff9c2b;
+
+    
 }
 ul {
     float: right;
     width: 500px;;
     margin-top: 15px;
+}
+.hover {
+text-decoration: none;
+    color: black;
+      border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ff9c2b;
 }
 
 header ul li {
@@ -78,7 +84,7 @@ header ul li a:link {
     color: black;
 }
 .Menu {
-    display: block;
+    display: block !important;
 }
 .MovilMenu {
     display: none;

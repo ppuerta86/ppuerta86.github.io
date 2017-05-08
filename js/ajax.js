@@ -1,6 +1,19 @@
 $(document).ready(inicio);
 
- 
+          // Waypoints
+       $('.post_article').waypoint(  
+        function(direction) {
+        if (direction ==='down') {            
+            var wayID = $(this).attr('id');            
+        } else {
+            var previous = $(this).prev();
+            var wayID = $(previous).attr('id');                    
+        }
+            $('.hover').removeClass('hover');
+            $('header ul li a[href=#'+wayID+']').addClass('hover');
+        }, { offset: '40%' });
+        
+
 
 
 
